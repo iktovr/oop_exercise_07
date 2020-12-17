@@ -1,0 +1,11 @@
+add -1 square 0 0 0
+add 0 square 0 0 0
+add 0 square 0 0 1
+remove 2
+print
+undo
+undo
+print
+load unexisted_file
+add 0 cube
+exit

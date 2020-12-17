@@ -1,0 +1,28 @@
+create
+add 0
+triangle 1 1 1
+add 1
+square 0 0 5
+add 1
+rectangle 2 2 3 4
+print
+undo
+print
+add 0
+rectangle 0 0 3 4
+print
+save 3figures
+create
+print
+load 3figures
+print
+remove 1
+remove 0
+print
+save 1square
+undo
+undo
+print
+load 1square
+print
+exit
